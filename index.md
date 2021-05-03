@@ -216,18 +216,6 @@ address.
 {% endif %}
 
 <strong> Date:</strong>  May 25, 27 or June 1
-{% comment %}
-DATE
-
-This block displays the date and links to Google Calendar.
-{% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>When:</strong>
-  {{page.humandate}}.
-  {% include workshop_calendar.html %}
-</p>
-{% endif %}
 
 {% comment %}
 SPECIAL REQUIREMENTS
