@@ -215,7 +215,7 @@ address.
 </p>
 {% endif %}
 
-<strong> Date:</strong>  May 25, 27 or June 1
+<p><strong> Date:</strong>  May 25, 27 or June 1</p>
 
 {% comment %}
 SPECIAL REQUIREMENTS
