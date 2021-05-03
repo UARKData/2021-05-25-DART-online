@@ -13,7 +13,7 @@ humandate: "May 25 - June 1, 2021"    # human-readable dates for the workshop (e
 humantime: "times vary"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-05-15     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-06-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Adam Hughes","Lora Lennertz", "Mary Leverence", "Stephanie Pierce", "Austin Wilkins"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Adam Hughes","Lora Lennertz", "Mary Leverance", "Stephanie Pierce", "Austin Wilkins"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Michael Gibbs","Jay McAllister"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["datalib@uark.edu","lennertz@uark.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/May-UARK-Carpentries # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -62,13 +62,13 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 
 <h2>Register Now!</h2>
 <img src = "images/DART.png">
-<p>Please register separately for each workshop in the series. </p>
+<p>Please select the class of your choice. </p>
 <div class="row">
 <div class="col-md-8">
   <table>
 <table class="table table-striped">
 <tr> <td>May 25, 1 pm - 4:30 pm</td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
-<a id = "s_lc_event_7732968" href="https://uark.libcal.com/calendar/Data/GitDARTMay25">Intro Unix Shell</a>
+<a id = "s_lc_event_7732968" href="https://uark.libcal.com/calendar/Data/UnixDARTMay25">Introduction to Unix Shell </a>
 <!-- Below is optional element styling  //-->
   <style>
 #s_lc_event_7732968 {
@@ -86,7 +86,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </style>
 </td> </tr>
       <tr> <td>May 27, 1 pm - 4:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
-<a id="s_lc_event_7732976" href="https://uark.libcal.com/calendar/Data/GitDARTMay27">Versioning with Git </a>
+<a id="s_lc_event_7732976" href="https://uark.libcal.com/calendar/Data/UnixDARTMay27">Introduction to Unix Shell </a>
 <!-- Below is optional element styling  //-->
 <style>
 #s_lc_event_7732976 {
@@ -104,7 +104,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </style>
 </td> </tr>
        <tr> <td>June 1, 9 am - 12:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
-<a id="s_lc_event_7732984" href="https://uark.libcal.com/calendar/Data/DARTUnixJun1">Intro to Unix Shell </a>
+<a id="s_lc_event_7732984" href="https://uark.libcal.com/calendar/Data/UnixDartJun1">Introduction to Unix Shell </a>
 <!-- Below is optional element styling  //-->
 <style>
 #s_lc_event_7732984 {
@@ -215,6 +215,7 @@ address.
 </p>
 {% endif %}
 
+<strong> Date:</strong>  May 25, 27 or June 1
 {% comment %}
 DATE
 
