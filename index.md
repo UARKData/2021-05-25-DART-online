@@ -313,7 +313,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to members of participating DART institions.
+    This workshop is open to members of participating DART institions and others who have interest.
 </p>
 
 
